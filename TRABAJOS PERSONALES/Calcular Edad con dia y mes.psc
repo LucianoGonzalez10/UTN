@@ -1,6 +1,6 @@
 Algoritmo sin_titulo
 	Definir ano, mes, dia, edad Como Entero;
-	Escribir "Ingresa tu año de nacimiento";
+	Escribir "Ingresa tu aÃ±o de nacimiento";
 	leer ano;
 	Escribir "Ingresa tu mes de nacimiento";
 	leer mes;
@@ -15,7 +15,7 @@ Si (mes<2) Entonces
 		edad<-edad;
 	SiNo
 		
-	Si (mes<=2) & (dia>18) Entonces
+	Si (mes<=2) && (dia>18) Entonces
 			edad<-(edad-1);
 	SiNo
 		edad<-(edad-1);
